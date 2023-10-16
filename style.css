@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+
+#container{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.square{
+    background-color: beige;
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+}
+
+.o:after{
+    font-size: 60px;
+    content: "\1F6E1";
+}
+
+.x:after{
+    font-size: 60px;
+    content: "\2694";
+}
+
+button{
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
